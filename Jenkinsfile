@@ -15,7 +15,7 @@ pipeline {
 
         stage('test') {
             steps {
-                echo 'compunit testiling sysfoo app'
+                echo 'unit testing sysfoo app'
                 sh 'mvn clean test'
             }
         }
